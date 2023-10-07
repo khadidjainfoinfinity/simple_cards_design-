@@ -105,8 +105,8 @@ body {
 
 .container .card .box .content {
   position: absolute;
-  top: 36%;
-  padding:  15px;
+  top: 30%;
+  padding:  10px;
   font-family: 'NTR', sans-serif;
   text-align:  center;
   font-size:  20px;
@@ -119,13 +119,13 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   color:  var(--clr);
-  margin-bottom: 10px; 
+  margin-bottom: 9px; 
 }
 
 
 .container .card .box .content p{
   color : #ffffff ; 
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   
 }
 
