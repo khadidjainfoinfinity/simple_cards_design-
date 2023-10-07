@@ -1,0 +1,156 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:  border-box;
+  font-family: 'NTR', sans-serif;
+  
+}
+
+
+body {
+    display:  flex;
+    justify-content:center ;
+    align-items:  center;
+    background:  #222;
+    
+}
+
+
+.container{
+  display:  flex;
+  justify-content:  center ;
+  align-items:  center ;
+  flex-wrap:  wrap;
+  gap: 60px;
+}
+
+
+.container .card{
+  position:  relative;
+  background : var(--clr);
+  height:  400px;
+  width:  300px;
+  border-radius:  25px;
+  border-top-left-radius: 70px;
+  overflow : hidden;
+}
+
+.container .card .box{
+  position:  absolute;
+  inset: 12px;
+  background: #222;
+  border-radius: 15px;
+}
+
+.container .card .box .icon {
+  position:  absolute;
+  height: 130px;
+  width:  130px;
+  background:  var(--clr);
+  border-bottom-right-radius:  50%;
+  transition: .4s;
+  top: -2px;
+  left: -2px;
+}
+
+.container .card:hover .box .icon{
+  width:  100%;
+}
+
+.container .card .box .icon::before {
+  content: " ";
+  position:  absolute;
+  bottom: -30px;
+  left: 2px;
+  width:  30px;
+  height:  30px;
+  background-color: transparent;
+  border-top-left-radius:  50px;
+  box-shadow:  -7px -7px 0 5px var(--clr);
+}
+
+
+.container .card .box .icon::after{
+  content: " ";
+  position:  absolute;
+  top:2px;
+  right: -30px;
+  width:  30px;
+  height:  30px;
+  background-color: transparent  ;
+  border-top-left-radius:  50px;
+  box-shadow:  -7px -7px 0 5px var(--clr);
+}
+
+
+.container .card .box .icon .icon_box{
+  position:  absolute;
+  inset:  13px;
+  background:  #222;
+  border-radius: 50% 16px ;
+  display:  flex;
+  justify-content:  center;
+  align-items:  center;
+  
+}
+
+.container .card .box .icon .icon_box ion-icon{
+  font-size:  60px;
+  color: var(--clr);
+  --ionicon-stroke-width: 30px;
+}
+
+.container .card .box .content {
+  position: absolute;
+  top: 36%;
+  padding:  15px;
+  font-family: 'NTR', sans-serif;
+  text-align:  center;
+  font-size:  1.3em;
+  line-height:  1.5;
+  
+}
+
+.container .card .box .content h2{
+  font-size: 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color:  var(--clr);
+  margin-bottom: 10px; 
+}
+
+
+.container .card .box .content p{
+  color : #ffffff ; 
+  margin-bottom: 10px;
+  
+}
+
+.container .card .box .content a{
+  display: inline-flex;
+  justify-content : center;
+  align-items:  center;
+  background : var(--clr);
+  width: 130px;
+  height : 50px;
+  text-decoration : none;
+  border:  none;
+  border-radius: 20px 20px 0 0;  
+  color: #222;
+  font-size:  1.2em;
+  font-weight:  bold;
+  transition:  .3s all ease-out;
+  text-transform:  capitalize;
+  letter-spacing:  1px;
+  margin-top: 5%
+}
+
+.container .card .box .content a:hover{
+  width:  60%;
+  font-size:  1.3em;
+  letter-spacing: 1.7px;
+  
+}
