@@ -1,4 +1,3 @@
-
   @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 
 *{
@@ -47,8 +46,8 @@ body {
 
 .container .card .box .icon {
   position:  absolute;
-  height: 130px;
-  width:  130px;
+  height: 30%;
+  width:  45%;
   background:  var(--clr);
   border-bottom-right-radius:  50%;
   transition: .4s;
@@ -105,12 +104,12 @@ body {
 
 .container .card .box .content {
   position: absolute;
-  top: 30%;
-  padding:  10px;
+  top: 28%;
+  padding: 15px;
   font-family: 'NTR', sans-serif;
   text-align:  center;
-  font-size:  18px;
-  line-height:  1.5;
+  font-size:  20px;
+  line-height:  1.6;
   
 }
 
@@ -119,13 +118,12 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   color:  var(--clr);
-  margin-bottom: 9px; 
+  margin-bottom: 10px; 
 }
 
 
 .container .card .box .content p{
   color : #ffffff ; 
-  margin-bottom: 3px;
   
 }
 
@@ -134,23 +132,24 @@ body {
   justify-content : center;
   align-items:  center;
   background : var(--clr);
-  width: 130px;
+  width: 60%;
   height : 50px;
   text-decoration : none;
   border:  none;
   border-radius: 20px 20px 0 0;  
   color: #222;
-  font-size:  20px;
+  font-size:  25px;
   font-weight:  bold;
   transition:  .3s all ease-out;
   text-transform:  capitalize;
   letter-spacing:  1px;
-  margin-top: 5%
+  position:  relative;
+  bottom: -40px;
 }
 
 .container .card .box .content a:hover{
   width:  60%;
-  font-size:  23px;
+  font-size:  1.3em;
   letter-spacing: 1.7px;
   
-}
+  }
